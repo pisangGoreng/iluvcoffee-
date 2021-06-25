@@ -8,5 +8,5 @@ export class CreateCoffeeDto {
   readonly brand: string;
 
   @IsString({ each: true })
-  readonly flavors: string[];
+  readonly flavors: string[] ;
 }
